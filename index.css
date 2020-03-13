@@ -17,6 +17,10 @@ body {
   background-image: url("bkg.jpg");
   background-size: cover;
 }
+.overlay::before {
+  content: "";
+  filter: none;
+}
 .wb {  
   color: #000;
   background-color: #fff;
