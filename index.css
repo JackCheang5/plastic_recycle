@@ -17,6 +17,18 @@ body {
   background-image: url("bkg.jpg");
   background-size: cover;
 }
+.wb {  
+  color: #fff;
+  background-color: #000;
+  mix-blend-mode: multiply;
+  padding: 7px 12px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.wb:hover {
+  opacity: 0.7;
+}
 ul {
   overflow: hidden;
   padding-right: 70px;
@@ -63,17 +75,14 @@ li .dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.wb {  
-  color: #fff;
-  background-color: #000;
-  mix-blend-mode: multiply;
-  padding: 7px 12px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
+#navbar {
+  margin: 0;
+  padding-top: 35px;
 }
-.wb:hover {
-  opacity: 0.7;
+#mainContent {
+  text-align: right;
+  margin-top: 135px;
+  padding-right: 76px;
 }
 .topic {
   font-size: 45px;
@@ -82,20 +91,4 @@ li .dropdown {
   margin-bottom: 155px;
   position: relative;
 }
-#navbar {
-  margin: 0;
-  padding-top: 35px;
-}
-.right {
-  text-align: right;
-  padding-right: 75px;
-}
-#lm {
-  position: absolute;
-  right: 0;
-}
-#mainContent {
-  right: 0;
-  position: absolute;
 
-}
