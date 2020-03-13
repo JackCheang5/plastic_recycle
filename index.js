@@ -1,10 +1,10 @@
 $(document).ready(function(){
   $(".dropdown").hover(
     () => {
-    $(".overlay:before").attr("filter","blur(4px)");
+    $(".background-image").css({"filter":"blur(4px)"});
   }, ()=> {
-    $(".overlay:before").attr("filter","none");
+    $(".background-image").css({"filter":"none"});
   });
 });
 
-// git branch merge learning
+

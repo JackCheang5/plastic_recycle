@@ -9,14 +9,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
-.overlay {
+.background-image {
+  background-image: url("bkg.jpg");
+  background-size: cover;
+  position: fixed;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
+  z-index: 1;
+  display: block;
+  filter: none;
+  transition: 1s;
+}
+.main-content {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   position: relative;
-  background-image: url("bkg.jpg");
-  background-size: cover;
+  z-index: 100;
 }
 .overlay::before {
   content: "";
@@ -80,6 +94,9 @@ li .dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dropdown:hover .background-image {
+  filter: blur(4px);
+}
 .wb {  
   background-color: #fff;
   color: #000;
@@ -101,9 +118,9 @@ li .dropdown {
   margin: 0;
   padding-top: 35px;
 }
-#mainContent {
+#content {
   text-align: right;
-  margin-top: 135px;
+  margin-top: 220px;
   padding-right: 76px;
 }
 .topic {
