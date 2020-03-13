@@ -6,4 +6,5 @@ $(document).ready(function(){
     $(".overlay:before").attr("filter","none");
   });
 });
-// git learning
+
+// git branch merge learning
