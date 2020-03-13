@@ -5,31 +5,56 @@ body {
   top: 0px;
   margin: 0px;
   min-height: 100%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.overlay {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
   background-image: url("bkg.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+}
+.overlay::before {
+  content: "";
+  filter: none;
+}
+.wb {  
+  color: #000;
+  background-color: #fff;
+  mix-blend-mode: screen;
+  padding: 7px 12px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.wb:hover {
+  opacity: 0.7;
 }
 ul {
-  list-style-type: none;
   overflow: hidden;
-  padding-right: 63px;
+  padding-right: 70px;
+  list-style-type: none;
 }
 li {
   float: right;
 }
 li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
   color: white;
-  display: block;
   text-align: center;
-  padding: 10px;
-  padding-bottom: 2px;
-  border-bottom: 2px solid #fff;
-  margin: 0px 4px;
-  margin-bottom: 5px;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 10px;
+  padding-bottom: 2px;
+  margin: 0px 4px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #fff;
 }
 li a:hover {
   font-weight: bold;
@@ -40,13 +65,13 @@ li .dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
   z-index: 1;
   border: 2px white;
   border-radius: 8px;
+  background-color: white;
 }
 .dropdown-content a {
-  color: aqua;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -77,10 +102,15 @@ li .dropdown {
   padding-top: 35px;
 }
 #mainContent {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 30px;
   text-align: right;
   margin-top: 135px;
-  padding-right: 65px;
+  padding-right: 76px;
 }
+.topic {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 135px;
+  margin-bottom: 155px;
+  position: relative;
+}
+
