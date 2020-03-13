@@ -81,9 +81,9 @@ li .dropdown {
   display: block;
 }
 .wb {  
-  background-color: #000;
-  color: #fff;
-  mix-blend-mode: multiply;
+  background-color: #fff;
+  color: #000;
+  mix-blend-mode: screen;
   padding: 7px 12px;
   border-radius: 10px;
   text-transform: uppercase;
