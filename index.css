@@ -18,9 +18,9 @@ body {
   background-size: cover;
 }
 .wb {  
-  color: #fff;
-  background-color: #000;
-  mix-blend-mode: multiply;
+  color: #000;
+  background-color: #fff;
+  mix-blend-mode: screen;
   padding: 7px 12px;
   border-radius: 10px;
   text-transform: uppercase;
@@ -66,7 +66,7 @@ li .dropdown {
   background-color: white;
 }
 .dropdown-content a {
-  color: aqua;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
