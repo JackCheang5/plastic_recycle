@@ -2,12 +2,20 @@ html {
   height: 100%;
 }
 body {
+  top: 0px;
+  margin: 0px;
+  min-height: 100%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.overlay {
   margin: 0;
   padding: 0;
   min-height: 100%;
   background-image: url("bkg.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
 }
 ul {
   list-style-type: none;
@@ -56,8 +64,8 @@ li .dropdown {
   display: block;
 }
 .wb {  
-  background-color: #fff;
-  color: #000;
+  color: #fff;
+  background-color: #000;
   mix-blend-mode: multiply;
   padding: 7px 12px;
   border-radius: 10px;
@@ -70,16 +78,13 @@ li .dropdown {
 .topic {
   font-weight: bold;
   font-size: 45px;
+  margin-top: 135px;
   margin-bottom: 155px;
 }
 #navbar {
   margin-top: 35px;
 }
-#mainContent {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 30px;
+.right {
   text-align: right;
-  margin-top: 135px;
   padding-right: 65px;
 }
