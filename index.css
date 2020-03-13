@@ -2,8 +2,10 @@ html {
   height: 100%;
 }
 body {
-  height: 100%;
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-image: url("bkg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
