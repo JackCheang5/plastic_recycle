@@ -9,40 +9,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
-.background-image {
-  background-image: url("pure_background.png");
-  background-size: cover;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
-  display: block;
-  filter: none;
-  transition: 0.7s;
-}
-.main-content {
+/* Navigation Bar */
+.navigation-bar {
   margin: 0;
   padding: 0;
   top: 0;
   left: 0;
   width: 100vw;
-  position: relative;
+  position: fixed;
   z-index: 2;
 }
-.contentWb {  
-  color: #000;
-  background-color: #fff;
-  mix-blend-mode: screen;
-  padding: 7px 12px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: swisot2regular, sans-serif;
-}
-.contentWb:hover {
-  opacity: 0.7;
+#bar {
+  margin: 0;
+  padding-top: 35px;
 }
 ul {
   overflow: hidden;
@@ -91,18 +70,6 @@ li .dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.wb {  
-  background-color: #fff;
-  color: #3288B7;
-  padding: 7px 20px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: swisot2regular, sans-serif;
-}
-.wb:hover {
-  opacity: 0.7;
-}
 #logo {
   float: left;
 }
@@ -121,16 +88,32 @@ li .dropdown {
   width: 100%;
   padding-top: 5px;
 }
-.topic {
-  font-family: 'Noto Sans TC', sans-serif;
-  font-weight: bold;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 155px;
+.wb {  
+  background-color: #fff;
+  color: #3288B7;
+  padding: 7px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: swisot2regular, sans-serif;
 }
-#navbar {
+.wb:hover {
+  opacity: 0.7;
+}
+
+/* Main Content */
+.background-image {
+  background-image: url("pure_background.png");
+  background-size: cover;
+  position: fixed;
   margin: 0;
-  padding-top: 35px;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: block;
+  filter: none;
+  transition: 0.7s;
 }
 #content {
   text-align: right;
@@ -138,11 +121,25 @@ li .dropdown {
   padding-right: 76px;
 }
 .topic {
-  font-size: 45px;
+  font-family: 'Noto Sans TC', sans-serif;
   font-weight: bold;
+  font-size: 45px;
   margin-top: 135px;
+  letter-spacing: 5px;
   margin-bottom: 120px;
-  position: relative;
+}
+.contentWb {  
+  color: #000;
+  background-color: #fff;
+  mix-blend-mode: screen;
+  padding: 7px 12px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: swisot2regular, sans-serif;
+}
+.contentWb:hover {
+  opacity: 0.7;
 }
 #p01 {
   font-size: 18px;
@@ -150,4 +147,3 @@ li .dropdown {
   margin-top: 15px;
   letter-spacing: 5px;
 }
-
