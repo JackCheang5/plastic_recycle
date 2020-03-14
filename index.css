@@ -112,6 +112,7 @@ li .dropdown {
   background-image: url("pure_background.png");
   background-size: cover;
   text-align: right;
+  position: relative;
 }
 #first * {
   padding-right: 76px;
@@ -124,25 +125,24 @@ li .dropdown {
   letter-spacing: 5px;
   margin-bottom: 120px;
 }
-#first p {
-  font-size: 18px;
-  font-family: 'Noto Sans TC', sans-serif;
-  margin-top: 15px;
-  letter-spacing: 5px;
+#first div img {
+  padding-right: 0;
+  max-width: 221.9px;
+  max-height: 46.2px;
 }
-.contentWb {  
-  color: #000;
-  background-color: #fff;
-  mix-blend-mode: screen;
-  padding: 7px 12px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: swisot2regular, sans-serif;
-}
-.contentWb:hover {
+#first div img:hover {
   opacity: 0.7;
 }
+#first p {
+  top: 83%;
+  right: 2px;
+  position: absolute;
+  font-size: 17px;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 0px;
+  letter-spacing: 4px;
+}
+
 /* second page */
 #second {
   position: relative;
