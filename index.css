@@ -44,7 +44,6 @@ li a {
 }
 li a:hover {
   font-weight: bold;
-  border-bottom: 5pt solid #fff;
 }
 li .dropdown {
   display: inline-block;
@@ -105,6 +104,12 @@ li .dropdown {
 #container {
   filter: none;
   transition: 0.7s;
+}
+.swiper-button-prev {
+  background-image: url("previous.png") !important;
+}
+.swiper-button-next {
+  background-image: url("next.png") !important;
 }
 /* first page */
 #first {
