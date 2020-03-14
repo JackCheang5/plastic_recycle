@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("li").hover(
+  $(".blur").hover(
     () => {
     $(".background-image").css({"filter":"blur(4px)"});
   }, ()=> {

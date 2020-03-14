@@ -90,9 +90,6 @@ li .dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown:hover .background-image {
-  filter: blur(4px);
-}
 .wb {  
   background-color: #fff;
   color: #3288B7;
