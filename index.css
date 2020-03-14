@@ -102,20 +102,22 @@ li .dropdown {
 #main-content {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
-  display: block;
+  width: 320px;
+  height: 200px;
+  /*display: block;
   position: fixed;
+  transition: 0.7s;*/
+}
+/* first */
+#first {
   background-image: url("pure_background.png");
   background-size: cover;
-  transition: 0.7s;
-}
-#content {
+  width: 100%;
+  height: 100%;
   text-align: right;
-  margin-top: 220px;
   padding-right: 76px;
 }
-#content h1 {
+#first h1 {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: bold;
   font-size: 45px;
@@ -123,7 +125,7 @@ li .dropdown {
   letter-spacing: 5px;
   margin-bottom: 120px;
 }
-#content p {
+#first p {
   font-size: 18px;
   font-family: 'Noto Sans TC', sans-serif;
   margin-top: 15px;
