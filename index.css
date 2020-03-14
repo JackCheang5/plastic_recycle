@@ -99,16 +99,15 @@ li .dropdown {
 }
 
 /* Main Content */
-.background-image {
-  background-image: url("pure_background.png");
-  background-size: cover;
-  position: fixed;
+#main-content {
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
   display: block;
-  filter: none;
+  position: fixed;
+  background-image: url("pure_background.png");
+  background-size: cover;
   transition: 0.7s;
 }
 #content {
@@ -116,13 +115,19 @@ li .dropdown {
   margin-top: 220px;
   padding-right: 76px;
 }
-.topic {
+#content h1 {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: bold;
   font-size: 45px;
   margin-top: 135px;
   letter-spacing: 5px;
   margin-bottom: 120px;
+}
+#content p {
+  font-size: 18px;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 15px;
+  letter-spacing: 5px;
 }
 .contentWb {  
   color: #000;
@@ -136,10 +141,4 @@ li .dropdown {
 }
 .contentWb:hover {
   opacity: 0.7;
-}
-#p01 {
-  font-size: 18px;
-  font-family: 'Noto Sans TC', sans-serif;
-  margin-top: 15px;
-  letter-spacing: 5px;
 }

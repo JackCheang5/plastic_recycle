@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $(".blur").hover(
     () => {
-    $(".background-image").css({"filter":"blur(4px)"});
+    $("#main-content").css({"filter":"blur(4px)"});
   }, ()=> {
-    $(".background-image").css({"filter":"none"});
+    $("#main-content").css({"filter":"none"});
   });
 });
 
