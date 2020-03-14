@@ -44,6 +44,7 @@ li a {
 }
 li a:hover {
   font-weight: bold;
+  border-bottom: 5pt solid #fff;
 }
 li .dropdown {
   display: inline-block;
@@ -62,6 +63,9 @@ li .dropdown {
   text-decoration: none;
   display: block;
   text-align: center;
+}
+.dropdown-content a:hover {
+  border-bottom: none;
 }
 .dropdown:hover .dropdown-content {
   display: block;
