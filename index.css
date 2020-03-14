@@ -103,9 +103,9 @@ li .dropdown {
   width: 100vw;
   height: 100vh;
 }
-.swiper-slide {
+#container {
   filter: none;
-  transition: 1s;
+  transition: 0.7s;
 }
 /* first page */
 #first {

@@ -46,7 +46,7 @@
   </div>
 
 
-	<div class="swiper-container">
+	<div id="container" class="swiper-container">
 		<div class="swiper-wrapper">
 			<div id="first" class="swiper-slide">
         <h1>
@@ -85,9 +85,9 @@
     $(document).ready(function(){
       $(".blur").hover(
         () => {
-        $(".swiper-slide").css({"filter":"blur(4px)"});
+        $("#container").css({"filter":"blur(5px)"});
       }, ()=> {
-        $(".swiper-slide").css({"filter":"none"});
+        $("#container").css({"filter":"none"});
       });
     });
 	</script>
