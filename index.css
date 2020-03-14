@@ -99,7 +99,6 @@ li .dropdown {
 }
 /* carousel */ 
 .swiper-container {
-  /* 設定幻燈片寬度跟高度 */
   width: 100vw;
   height: 100vh;
 }
@@ -142,7 +141,6 @@ li .dropdown {
   margin-top: 0px;
   letter-spacing: 4px;
 }
-
 /* second page */
 #second {
   position: relative;
@@ -172,4 +170,7 @@ li .dropdown {
 #second div img {
   height: 40%;
   width: 40%;
+}
+.expand:hover {
+  font-size: 55px;
 }
