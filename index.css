@@ -33,7 +33,7 @@ li a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 29px;
   font-family: "Microsoft Yi Baiti", sans-serif;
   display: block;
   padding: 10px;
@@ -86,13 +86,14 @@ li .dropdown {
 #cart img {
   height: 100%;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .wb {  
   color: #3288B7;
   background-color: #fff;
   font-size: 24px;
-  padding: 7px 20px;
+  font-weight: bold;
+  padding: 5px 18px;
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
