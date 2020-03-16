@@ -95,7 +95,7 @@ li .dropdown {
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: swisot2regular, sans-serif;
+  font-family: 'swisot2regular', sans-serif !important;
 }
 .wb:hover {
   opacity: 0.7;
